@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    position: relative;
+}
+
+.human {
+    position: absolute;
+    margin-left: -50%;
+    margin-top: 25%;
+    background: url(human2.png);
+    width: 293px;
+    height: 300px;
+    animation: walk .8s steps(3) infinite, forward 6s linear infinite;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 865px;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(1200px);
+    }
+}
+.human2 {
+    margin-left: -10%;
+    margin-top: 25%;
+    position: absolute;
+    background: url(human1.png);
+    width: 293px;
+    height: 300px;
+    animation: walk .8s steps(3) infinite, forward 6s linear infinite;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 865px;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(1200px);
+    }
+}
+
+.human3 {
+    margin-left: -60%;
+    margin-top: 25%;
+    position: absolute;
+    background: url(human3.png);
+    width: 293px;
+    height: 300px;
+    animation: walk .8s steps(3) infinite, forward 6s linear infinite;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 865px;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(1200px);
+    }
+}
+
+.human4 {
+    margin-left: -70%;
+    margin-top: 25%;
+    position: absolute;
+    background: url(human4.png);
+    width: 293px;
+    height: 300px;
+    animation: walk .8s steps(3) infinite, forward 6s linear infinite;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 865px;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(2800px);
+    }
+}
